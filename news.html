@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Playoffs News & Updates | NFL Playoffs Hub</title>
+    <meta name="description" content="Latest NFL Playoffs news, game updates, player interviews, and analysis. Stay informed with real-time coverage of the 2024 NFL Playoffs.">
+    <meta name="keywords" content="NFL Playoffs, NFL News, Football Updates, NFL Games, NFL Teams">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .ticker {
+            animation: scroll 20s linear infinite;
+        }
+        @keyframes scroll {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .playoff-bracket {
+            background: linear-gradient(45deg, #1a1a2e, #16213e);
+        }
+        .news-card:hover {
+            transform: translateY(-2px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+    <header class="bg-[#013369] text-white shadow-lg fixed w-full z-50">
+        <div class="ticker overflow-hidden whitespace-nowrap py-2 bg-[#D50A0A] text-sm">
+            <span class="inline-block">🏈 Bills vs Chiefs - Q4 28-24 • Ravens vs Texans - Q3 21-17 • 49ers vs Packers - Starting Soon</span>
+        </div>
+        <nav class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="https://spencience.github.io/generated-website-1736688839253/nfl-playoffs.html" class="text-2xl font-bold">NFL PLAYOFFS</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="https://spencience.github.io/generated-website-1736688839253/schedule.html" class="hover:text-[#D50A0A]">Schedule</a>
+                    <a href="https://spencience.github.io/generated-website-1736688839253/teams.html" class="hover:text-[#D50A0A]">Teams</a>
+                    <a href="https://spencience.github.io/generated-website-1736688839253/stats.html" class="hover:text-[#D50A0A]">Stats</a>
+                    <a href="https://spencience.github.io/generated-website-1736688839253/forum.html" class="hover:text-[#D50A0A]">Forum</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow mt-24">
+        <div class="container mx-auto px-4 py-8">
+            <div class="mb-8">
+                <h1 class="text-4xl font-bold text-[#013369] mb-4">Latest Playoff News</h1>
+                <div class="flex space-x-4 mb-6">
+                    <a href="https://spencience.github.io/generated-website-1736688839253/news/latest.html" class="text-[#D50A0A] hover:underline">Latest</a>
+                    <a href="https://spencience.github.io/generated-website-1736688839253/news/analysis.html" class="text-[#013369] hover:underline">Analysis</a>
+                    <a href="https://spencience.github.io/generated-website-1736688839253/news/interviews.html" class="text-[#013369] hover:underline">Interviews</a>
+                    <a href="https://spencience.github.io/generated-website-1736688839253/news/highlights.html" class="text-[#013369] hover:underline">Highlights</a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <article class="news-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <span class="text-[#D50A0A] text-sm font-semibold">Breaking News</span>
+                        <h2 class="text-xl font-bold mt-2 mb-3">
+                            <a href="https://spencience.github.io/generated-website-1736688839253/news/chiefs-bills-thriller.html" class="hover:text-[#D50A0A]">
+                                Chiefs-Bills Thriller: Fourth Quarter Showdown
+                            </a>
+                        </h2>
+                        <p class="text-gray-600 mb-4">Josh Allen and Patrick Mahomes trading blows in an epic playoff battle. Live updates and analysis...</p>
+                        <span class="text-sm text-gray-500">10 minutes ago</span>
+                    </div>
+                </article>
+
+                <article class="news-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <span class="text-[#D50A0A] text-sm font-semibold">Analysis</span>
+                        <h2 class="text-xl font-bold mt-2 mb-3">
+                            <a href="https://spencience.github.io/generated-website-1736688839253/news/ravens-defense.html" class="hover:text-[#D50A0A]">
+                                Ravens Defense Dominates Texans
+                            </a>
+                        </h2>
+                        <p class="text-gray-600 mb-4">Baltimore's defensive masterclass continues as they maintain control in the divisional round...</p>
+                        <span class="text-sm text-gray-500">25 minutes ago</span>
+                    </div>
+                </article>
+
+                <article class="news-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <span class="text-[#D50A0A] text-sm font-semibold">Preview</span>
+                        <h2 class="text-xl font-bold mt-2 mb-3">
+                            <a href="https://spencience.github.io/generated-website-1736688839253/news/49ers-packers-preview.html" class="hover:text-[#D50A0A]">
+                                49ers vs Packers: Playoff Preview
+                            </a>
+                        </h2>
+                        <p class="text-gray-600 mb-4">Key matchups and predictions for tonight's highly anticipated showdown...</p>
+                        <span class="text-sm text-gray-500">1 hour ago</span>
+                    </div>
+                </article>
+            </div>
+
+            <div class="mt-8">
+                <h2 class="text-2xl font-bold text-[#013369] mb-4">Trending Stories</h2>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <ul class="space-y-4">
+                        <li>
+                            <a href="/generated-website-1736688839253/news/injury-updates.html" class="flex items-center hover:bg-gray-50 p-2 rounded">
+                                <span class="text-[#D50A0A] font-semibold mr-4">1</span>
+                                <span>Injury Updates: Key Players' Status for Divisional Round</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/generated-website-1736688839253/news/coaching-changes.html" class="flex items-center hover:bg-gray-50 p-2 rounded">
+                                <span class="text-[#D50A0A] font-semibold mr-4">2</span>
+                                <span>Coaching Changes: Impact on Playoff Teams</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/generated-website-1736688839253/news/weather-impact.html" class="flex items-center hover:bg-gray-50 p-2 rounded">
+                                <span class="text-[#D50A0A] font-semibold mr-4">3</span>
+                                <span>Weather Watch: How Conditions Might Affect Tonight's Games</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#013369] text-white py-8">
+        <!-- Footer content as in template -->
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Footer sections as in template -->
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+                <p>&copy; 2024 NFL Playoffs Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
